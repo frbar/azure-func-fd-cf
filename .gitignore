@@ -1,0 +1,11 @@
+*.zip
+bin
+obj
+publish
+/src/.vscode
+/*.exe
+/tf/.terraform.lock.hcl
+.terraform
+/tf/terraform.tfstate
+/tf/terraform.tfstate.backup
+/tf/.terraform.tfstate.lock.info
