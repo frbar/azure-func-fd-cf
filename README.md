@@ -1,6 +1,6 @@
 # Purpose
 
-This repository contains a Terraform template to setup 2 indentical Azure Functions, in 2 different regions, and Azure Front Door as load balancer in front, and a domain name in Cloudflare.
+This repository contains a Terraform template to setup 2 identical Azure Functions, in 2 different regions, an Azure Front Door as load balancer in front, and a domain name in Cloudflare.
 
 # PowerShell script (Windows) to deploy the infrastructure, build and deploy the functions
 
@@ -12,7 +12,7 @@ az account set --subscription $subscription
 
 # Configuration
 
-$envName = "frbar111" # lowercase, only a-z and 0-9
+$envName = "frbarfdcf" # lowercase, only a-z and 0-9
 $location1 = "West Europe"
 $location2 = "North Europe"
 
